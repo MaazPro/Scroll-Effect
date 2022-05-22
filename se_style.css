@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+.intro-text{
+    width: 30%;
+    opacity: 0;
+    transform: translate(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear{
+    opacity: 1;
+    transform: translate(0px);
+}
